@@ -37,7 +37,12 @@ def emprestar_livro(listaLivros):
                     listaLivros.remove(livro)
                     status = "indisponível"
 
-listaLivros = ['pequeno pricipe', 'alice no pais das maravilhas', 'vento nos salgueiros']
+listaLivros = [
+    {"livro":'pequeno pricipe',},
+    
+
+    
+]
 
 adicionar_livro(listaLivros)
 emprestar_livro(listaLivros)
